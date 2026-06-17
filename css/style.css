@@ -1,0 +1,244 @@
+body{
+    background-color: #ffffff;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.nav-links{
+    background-color: rgb(11, 61, 30);
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    box-sizing: border-box;
+}
+
+.name h1{
+    color: white;
+    margin: 0;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color: rgb(0, 255, 136);
+}
+
+
+#about{
+    position: relative;
+    margin-top: 80px;
+    padding: 30px;
+    min-height: 300px;
+}
+
+#about h2{
+    font-size: 50px;
+}
+
+#about p{
+    margin-top: 0px;
+    max-width: 600px;
+    line-height: 1.6;
+}
+
+#about img{
+    position: absolute;
+    right: 50px;
+    top: 30px;
+    border: 2px solid white;
+    border-radius: 2px;
+    padding: 5px;
+}
+
+#about img:hover{
+    border-color: rgb(12, 12, 12);
+}
+
+#about ul{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+#about li{
+    background-color: rgb(11, 61, 30);
+    padding: 8px 12px;
+    border-radius: 5px;
+    color: white;
+    transition: 0.3s;
+}
+
+#about li:hover{
+    background-color: rgb(109, 224, 144);
+    color: black;
+    transform: scale(1.05);
+}
+
+.proj{
+    background-color: rgb(11, 61, 30);
+    color: white;
+    font-size: 30px;
+    padding: 15px;
+    text-align: center;
+    margin: 0; 
+}
+
+.project1{
+    position: relative;
+    min-height: 300px;
+    padding: 30px;
+    margin: 0;
+    background-color: #6dc58f;
+}
+.project1 h3{
+    color: #000000;
+}
+.project2{
+    position: relative;
+    min-height: 300px;
+    padding: 30px;
+    margin: 20px;
+}
+.project3{
+    position: relative;
+    min-height: 300px;
+    padding: 30px;
+    margin: 0px;
+    background-color: #6dc58f;
+}
+
+.project1 img{
+    width: 350px;
+    position: absolute;
+    right: 30px;
+    top: 80px;
+}
+.project1 img:active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+
+}
+.project2 img{
+    width: 350px;
+    position: absolute;
+    right: 30px;
+    top: 80px;
+}
+
+.project2 img:active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+
+}
+.project3 img{
+    width: 120px;
+    position: absolute;
+    right: 30px;
+    top: 50px;
+}
+
+.project3 img:active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: contain;
+
+}
+
+.project1 a,
+.project2 a,
+.project3 a{
+    text-decoration: none;
+    background-color: rgb(11, 61, 30);
+    color: white;
+    padding: 8px 12px;
+    border-radius: 5px;
+}
+
+.project1 a:hover,
+.project2 a:hover,
+.project3 a:hover{
+    background-color: rgb(109, 224, 144);
+    color: black;
+}
+
+#contact{
+    padding: 0;
+    margin: 0;
+}
+
+#contact h2{
+    text-align: center;
+    color: white;
+    background-color: rgb(11, 61, 30);
+    padding: 20px;
+    margin: 0;
+}
+
+#contact form{
+    padding: 30px;
+    margin-top: 20px;
+    max-width: 500px;
+}
+
+#contact label{
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+
+#contact input,
+#contact textarea{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-bottom: 2px solid rgb(11, 61, 30);
+    background: transparent;
+    font-size: 16px;
+}
+
+
+#contact input:focus,
+#contact textarea:focus{
+    outline: none;
+    border-bottom: 2px solid rgb(255, 255, 255);
+}
+
+
+#contact button{
+    background-color: rgb(11, 61, 30);
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+#contact button:hover{
+    background-color: rgb(109, 224, 144);
+    color: black;
+    transform: scale(1.05);
+}
